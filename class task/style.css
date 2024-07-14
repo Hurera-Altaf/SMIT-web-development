@@ -20,10 +20,11 @@ label{
     text-decoration: underline;
     font-weight: bold;
     margin-bottom: 10px;
+    font-size: 20px;
 }
 
 input {
-    padding: 3px;
+    padding: 10px;
     border: 1px solid darkslategray;
     border-radius: 10px;
 }
@@ -34,15 +35,19 @@ div {
 }
 
 .container {
-    width: 300px;
+    width: 350px;
     display: flex;
     flex-direction: column;
    /* align-items: center;   */
-   margin-left: 400px;
+    margin-left: 450px;
 
 }
 
 #btn {
     color: antiquewhite;
     background-color: rgb(64, 125, 146);
+}
+
+form{
+    background-color: lemonchiffon;
 }
